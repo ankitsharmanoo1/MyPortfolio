@@ -1,0 +1,85 @@
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+
+
+
+
+
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    line-height: 1.7;
+  }
+
+@layer base {
+    body {
+        @apply font-[Raleway];
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+  }
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+  }
+  
+  .btn:hover {
+    background-color: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+  }
+  
+  .btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+  }
+  
+
+
+
+
+
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(112, 157, 255, 0.8),
+        hsla(242, 74%, 61%, 0.8)   
+    )!important;
+} 
+

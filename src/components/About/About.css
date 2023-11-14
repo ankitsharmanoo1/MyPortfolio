@@ -1,0 +1,45 @@
+/* 
+.about{
+    /* background: #4942E4; 
+
+.paragraph{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: blue;
+    box-shadow: blueviolet;
+} */
+
+ .paragraph {
+   
+    padding: 20px;  
+    font-family: 'Your-Chosen-Font', sans-serif;   
+    font-size: 18px;   
+    line-height: 1.5; 
+    color: gainsboro;   
+    border-radius: 5px; 
+  } 
+
+  .social-media-icons {
+    display: flex;
+    gap: 10px;
+    font-size: 28px;
+    color: #4E4FEB; /* Default color */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .social-media-icons a {
+    text-decoration: none;
+    transition: color 0.3s; /* Add a smooth transition effect for color changes */
+  }
+  
+  .social-media-icons a:hover {
+    color: #4E4FEB; /* Hover color, adjust as needed */
+  }
+
+
+
+
+  
+  
